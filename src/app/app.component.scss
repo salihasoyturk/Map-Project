@@ -1,0 +1,64 @@
+.map {
+  width: 100%;
+  height: 100vh;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.wms {
+  border-radius: 0 0 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  color: white;
+  font-size: 1.14em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  height: 40px;
+  width: 60px;
+  line-height: 0.4em;
+  background-color: rgba(0, 60, 136, 0.5);
+  border: none;
+  margin-top: 15px;
+  &:hover {
+    text-decoration: none;
+    background-color: rgba(0, 60, 136, 0.7);
+  }
+}
+.wfs {
+  border-radius: 0 0 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  color: white;
+  font-size: 1.14em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  height: 40px;
+  width: 60px;
+  line-height: 0.4em;
+  background-color: rgba(0, 60, 136, 0.5);
+  border: none;
+  margin-top: 5px;
+  &:hover {
+    text-decoration: none;
+    background-color: rgba(0, 60, 136, 0.7);
+  }
+}
+.rotate-north {
+  top: 65px;
+  left: 0.5em;
+}
+.ol-touch .rotate-north {
+  top: 80px;
+}
