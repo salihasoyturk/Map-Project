@@ -4,12 +4,10 @@
 }
 .button {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   position: absolute;
-  top: 0;
-  right: 10px;
+  top: 30px;
+  right: 9px;
 }
 .wms {
   border-radius: 0 0 2px 2px;
